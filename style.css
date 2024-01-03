@@ -139,15 +139,13 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    margin: 60px;
-    
-
 }
 
 .color-container-sobre {
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
+    height: 860px;
     justify-content: center;
     background: rgb(115,11,234);
     background: linear-gradient(90deg, rgba(115,11,234,1) 0%, rgba(115,11,234,1) 29%, rgba(83,3,181,1) 73%, rgba(72,4,156,1) 95%);
@@ -208,10 +206,12 @@ p {
 }
 
 .color-col-1, .color-col-2, .color-col-3 {
+    display: flex;
+    align-items: center;
     border-radius: 10px;
     text-align: center;
     height: 100%;
-    margin: 30px;
+    margin: 80px;
     background-color: #fcfcfc;
     box-shadow: 0px 0px 10px #bdbdbd;
 }
