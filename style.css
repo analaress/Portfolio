@@ -139,7 +139,8 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    margin-top: 60px;
+    margin: 60px;
+    
 
 }
 
@@ -148,7 +149,6 @@ p {
     text-align: center;
     align-items: center;
     justify-content: center;
-    height: 860px;
     background: rgb(115,11,234);
     background: linear-gradient(90deg, rgba(115,11,234,1) 0%, rgba(115,11,234,1) 29%, rgba(83,3,181,1) 73%, rgba(72,4,156,1) 95%);
 }
@@ -181,7 +181,6 @@ p {
     font-size: 1.5rem;
     text-align: center;
     color:#494949;
-    margin-top: 80px
 }
 
 .color-container h5 {
@@ -221,9 +220,6 @@ p {
     padding: 10px;
 }
 
-.color-text, .color-img {
-    margin-top: 160px;
-}
 
 .col-sm-6 {
     display: flex;
